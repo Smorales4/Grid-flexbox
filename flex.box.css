@@ -1,0 +1,32 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto; 
+    background-color: #CCC;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #2196F3;
+    padding: 10px;
+    }
+
+.column-3{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 48%;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
